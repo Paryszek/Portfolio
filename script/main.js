@@ -1,12 +1,12 @@
 $(document).ready(function() {
 	var NavY = $('.header').offset().top;
     var stickyNav = function(){
-        var ScrollY = $(window).scrollTop(); 
-	   if (ScrollY > NavY) { 
-    
+        var ScrollY = $(window).scrollTop();
+	   if (ScrollY > NavY) {
+
         $('.scrolltop').addClass('scrollshow');
         $('.scrolltop').removeClass('scrollhide');
-		$('.header').addClass('sticky');
+				$('.header').addClass('sticky');
         $('.logo').addClass('logomove');
         $('.header-main-menu-left').addClass('menuleftmove');
         $('.header-main-menu-right').addClass('menurightmove');
@@ -17,7 +17,7 @@ $(document).ready(function() {
 	   } else {
         $('.scrolltop').addClass('scrollhide');
         $('.scrolltop').removeClass('scrollshow');
-		$('.header').removeClass('sticky');
+				$('.header').removeClass('sticky');
         $('.logo').removeClass('logomove');
         $('.logo').addClass('logoback');
         $('.header').addClass('stickyback');
@@ -114,7 +114,7 @@ $(document).ready(function() {
         $('.scrolltop').click(function(){
             $('body,html').animate({
 				scrollTop: 0
-			}, 1000);     
+			}, 1000);
         });
     };
     stickyNav();
