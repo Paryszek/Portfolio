@@ -23,7 +23,7 @@ ul li{
     float:left;
     font-size:23px;
     letter-spacing: 1px;
-    
+
 }
 ul li:hover{
     color:limegreen;
@@ -38,7 +38,7 @@ ul li:hover{
     padding:0;
     background-color:black;
     border-bottom:1px solid black;
-    
+
 }
 .header-main{
     width:700px;
@@ -63,7 +63,7 @@ ul li:hover{
     .logo img{
         width:100px;
         height:auto;
-    }    
+    }
     .logo img:hover{
         transform: rotate(360deg);
         transition: all 0.5s;
@@ -143,16 +143,20 @@ ul li:hover{
     background-size: cover;
 }
 .cytat{
-    width:700px;
-    margin-left:auto;
-    margin-right:auto;
+    margin:0;
+    text-align:center;
 }
 .cytat h1{
-    padding-left:30px;
-    padding-right:30px;
     margin:0;
+    padding-top:10px;
+    padding-bottom:5px;
+    font-size:82px;
+}
+.cytat h3{
+    margin:0;
+    padding-top:5px;
+    padding-bottom:10px;
     font-size:30px;
-    text-align:justify;
 }
 /* /////////////////////////////////////// */
 
@@ -164,6 +168,11 @@ ul li:hover{
     padding-bottom:150px;
     background-color:#333333;
     color:antiquewhite;
+}
+.iconsWitchDescription{
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
 }
 .text{
     padding-left:67px;
@@ -295,8 +304,8 @@ ul li:hover{
     transition: all 1s;
     transform: scale(0.9,0.9);
     color:antiquewhite;
-    
-    
+
+
 }
 /* /////////////////////////////////////// */
 /* ScrollTop */
@@ -326,7 +335,7 @@ ul li:hover{
 .footer{
     background-color:#333333;
     padding-top:30px;
-    padding-bottom:30px; 
+    padding-bottom:30px;
     font-size:20px;
     text-align:center;
 }
