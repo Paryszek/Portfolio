@@ -86,6 +86,10 @@ ul li:hover{
         transition: all 1s;
         z-index:100;
     }
+    .header-main-move{
+        height:51px;
+        transition: all 1s;
+    }
     .logomove{
         transition: all 1s;
         transform: translate(-140px,-25px) scale(0.5,0.5);
@@ -104,6 +108,10 @@ ul li:hover{
         padding-top:10px;
         transition: all 1s;
         transform: translate(0px,0px);
+    }
+    .header-main-back{
+        height:auto;
+        transition: all 1s;
     }
     .logoback{
         transition: all 1s;
@@ -226,36 +234,54 @@ ul li:hover{
     width:700px;
     font-size:0px;
 }
+.showtext1 h1{
+    text-align:left;
+    color:#3b5998;
+}
+.showtext2 h1{
+    text-align:center;
+    color:#3b5998;
+}
+.showtext3 h1{
+    text-align:right;
+    color:#3b5998;
+}
 /* /////////////////////////////////////// */
 /* Transformacje Main */
 .showtext1move{
     font-size:22px;
-    padding-top:50px;
     transition: all 1s;
 }
 .showtext1back{
     font-size:0px;
-    padding-top:0px;
+    transition: all 1s;
+}
+.showtext1back h1{
+    margin:0;
     transition: all 1s;
 }
 .showtext2move{
     font-size:22px;
-    padding-top:50px;
     transition: all 1s;
 }
 .showtext2back{
     font-size:0px;
-    padding-top:0px;
+    transition: all 1s;
+}
+.showtext2back h1{
+    margin:0;
     transition: all 1s;
 }
 .showtext3move{
     font-size:22px;
-    padding-top:50px;
     transition: all 1s;
 }
 .showtext3back{
     font-size:0px;
-    padding-top:0px;
+    transition: all 1s;
+}
+.showtext3back h1{
+    margin:0;
     transition: all 1s;
 }
 /* /////////////////////////////////////// */
@@ -283,7 +309,21 @@ ul li:hover{
 .contact{
     padding-top:50px;
     padding-bottom:50px;
-    background-color:#333333;
+    background-color:#232323;
+}
+.contact h1{
+    font-size:40px;
+    margin-bottom:0px;
+}
+.contact h2{
+    font-size:30px;
+    margin-top:0px;
+    text-align:center;
+}
+.contact h3{
+    font-size:25px;
+    margin:5px;
+    text-align:center;
 }
 /* /////////////////////////////////////// */
 /* FB */
