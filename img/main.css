@@ -23,7 +23,7 @@ ul li{
     float:left;
     font-size:23px;
     letter-spacing: 1px;
-    
+
 }
 ul li:hover{
     color:limegreen;
@@ -38,7 +38,7 @@ ul li:hover{
     padding:0;
     background-color:black;
     border-bottom:1px solid black;
-    
+
 }
 .header-main{
     width:700px;
@@ -63,7 +63,7 @@ ul li:hover{
     .logo img{
         width:100px;
         height:auto;
-    }    
+    }
     .logo img:hover{
         transform: rotate(360deg);
         transition: all 0.5s;
@@ -86,6 +86,10 @@ ul li:hover{
         transition: all 1s;
         z-index:100;
     }
+    .header-main-move{
+        height:51px;
+        transition: all 1s;
+    }
     .logomove{
         transition: all 1s;
         transform: translate(-140px,-25px) scale(0.5,0.5);
@@ -104,6 +108,10 @@ ul li:hover{
         padding-top:10px;
         transition: all 1s;
         transform: translate(0px,0px);
+    }
+    .header-main-back{
+        height:auto;
+        transition: all 1s;
     }
     .logoback{
         transition: all 1s;
@@ -143,16 +151,20 @@ ul li:hover{
     background-size: cover;
 }
 .cytat{
-    width:700px;
-    margin-left:auto;
-    margin-right:auto;
+    margin:0;
+    text-align:center;
 }
 .cytat h1{
-    padding-left:30px;
-    padding-right:30px;
     margin:0;
+    padding-top:10px;
+    padding-bottom:5px;
+    font-size:82px;
+}
+.cytat h3{
+    margin:0;
+    padding-top:5px;
+    padding-bottom:10px;
     font-size:30px;
-    text-align:justify;
 }
 /* /////////////////////////////////////// */
 
@@ -164,6 +176,11 @@ ul li:hover{
     padding-bottom:150px;
     background-color:#333333;
     color:antiquewhite;
+}
+.iconsWitchDescription{
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
 }
 .text{
     padding-left:67px;
@@ -217,36 +234,54 @@ ul li:hover{
     width:700px;
     font-size:0px;
 }
+.showtext1 h1{
+    text-align:left;
+    color:#3b5998;
+}
+.showtext2 h1{
+    text-align:center;
+    color:#3b5998;
+}
+.showtext3 h1{
+    text-align:right;
+    color:#3b5998;
+}
 /* /////////////////////////////////////// */
 /* Transformacje Main */
 .showtext1move{
     font-size:22px;
-    padding-top:50px;
     transition: all 1s;
 }
 .showtext1back{
     font-size:0px;
-    padding-top:0px;
+    transition: all 1s;
+}
+.showtext1back h1{
+    margin:0;
     transition: all 1s;
 }
 .showtext2move{
     font-size:22px;
-    padding-top:50px;
     transition: all 1s;
 }
 .showtext2back{
     font-size:0px;
-    padding-top:0px;
+    transition: all 1s;
+}
+.showtext2back h1{
+    margin:0;
     transition: all 1s;
 }
 .showtext3move{
     font-size:22px;
-    padding-top:50px;
     transition: all 1s;
 }
 .showtext3back{
     font-size:0px;
-    padding-top:0px;
+    transition: all 1s;
+}
+.showtext3back h1{
+    margin:0;
     transition: all 1s;
 }
 /* /////////////////////////////////////// */
@@ -274,7 +309,21 @@ ul li:hover{
 .contact{
     padding-top:50px;
     padding-bottom:50px;
-    background-color:#333333;
+    background-color:#232323;
+}
+.contact h1{
+    font-size:40px;
+    margin-bottom:0px;
+}
+.contact h2{
+    font-size:30px;
+    margin-top:0px;
+    text-align:center;
+}
+.contact h3{
+    font-size:25px;
+    margin:5px;
+    text-align:center;
 }
 /* /////////////////////////////////////// */
 /* FB */
@@ -295,8 +344,8 @@ ul li:hover{
     transition: all 1s;
     transform: scale(0.9,0.9);
     color:antiquewhite;
-    
-    
+
+
 }
 /* /////////////////////////////////////// */
 /* ScrollTop */
@@ -326,7 +375,7 @@ ul li:hover{
 .footer{
     background-color:#333333;
     padding-top:30px;
-    padding-bottom:30px; 
+    padding-bottom:30px;
     font-size:20px;
     text-align:center;
 }
