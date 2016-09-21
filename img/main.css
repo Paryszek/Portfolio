@@ -1,8 +1,11 @@
+html{
+    background-color:#1b1e23;
+    color:white;
+}
 body{
     margin:0;
     padding:0;
     font-family: 'Lato', sans-serif;
-    color:white;
 }
 a{
     text-decoration: none;
@@ -34,10 +37,9 @@ ul li:hover{
 .header{
     max-height:100px;
     width:100%;
+    background-color:#1b1e23;
     margin:0;
     padding:0;
-    background-color:black;
-    border-bottom:1px solid black;
 
 }
 .header-main{
@@ -144,7 +146,6 @@ ul li:hover{
     height:auto;
     padding-top:150px;
     padding-bottom:150px;
-    background-color:#333333;
     background-image: url(main.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -174,20 +175,25 @@ ul li:hover{
     height:auto;
     padding-top:150px;
     padding-bottom:150px;
-    background-color:#333333;
-    color:antiquewhite;
 }
-.iconsWitchDescription{
+.iconsWithDescription{
     margin-left:auto;
     margin-right:auto;
     width:700px;
+}
+.textUnderIcons{
+  margin-left:auto;
+  margin-right:auto;
+  width:700px;
+  height:auto;
+  text-align:justify;
 }
 .text{
     padding-left:67px;
     padding-right:68px;
     float:left;
     font-size:70px;
-    }
+}
 .text:hover{
     cursor:pointer;
     color:limegreen;
@@ -200,39 +206,29 @@ ul li:hover{
 }
 .textnormal{
     transition: all 1s;
-    color:antiquewhite;
+    color:white;
 }
 .textnormal:hover{
     color:limegreen;
     transition: all 1s;
 }
-.textoff{
-    transition: all 1s;
-    color:dimgrey;
-}
 .showtext1{
-    display:block;
-    text-align:justify;
-    padding-top:0px;
+    display:none;
     letter-spacing: 1px;
-    width:700px;
-    font-size:0px;
+    font-size:22px;
+    position:absolute;
 }
 .showtext2{
-    display:block;
-    text-align:justify;
-    padding-top:0px;
+    display:none;
     letter-spacing: 1px;
-    width:700px;
-    font-size:0px;
+    font-size:22px;
+    position:absolute;
 }
 .showtext3{
-    display:block;
-    text-align:justify;
-    padding-top:0px;
+    display:none;
     letter-spacing: 1px;
-    width:700px;
-    font-size:0px;
+    font-size:22px;
+    position:absolute;
 }
 .showtext1 h1{
     text-align:left;
@@ -248,6 +244,10 @@ ul li:hover{
 }
 /* /////////////////////////////////////// */
 /* Transformacje Main */
+.textActive{
+  display:block;
+  position:relative;
+}
 .showtext1move{
     font-size:22px;
     transition: all 1s;
@@ -289,27 +289,24 @@ ul li:hover{
 .blog{
     padding-top:50px;
     padding-bottom:50px;
-    background-color:#363533;
 }
 /* /////////////////////////////////////// */
 /* Praca */
 .work{
     padding-top:50px;
     padding-bottom:50px;
-    background-color:#333333;
 }
 /* /////////////////////////////////////// */
 /* FAQ */
 .faq{
     padding-top:50px;
     padding-bottom:50px;
-    background-color:#363533;
 }
 /* /////////////////////////////////////// *//* Kontakt */
 .contact{
     padding-top:50px;
     padding-bottom:50px;
-    background-color:#232323;
+    background-color:#343434;
 }
 .contact h1{
     font-size:40px;
@@ -373,7 +370,6 @@ ul li:hover{
 /* /////////////////////////////////////// */
 /* footer */
 .footer{
-    background-color:#333333;
     padding-top:30px;
     padding-bottom:30px;
     font-size:20px;
