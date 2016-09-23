@@ -69,6 +69,7 @@ ul li:hover{
     .logo img:hover{
         transform: rotate(360deg);
         transition: all 0.5s;
+        transition-timing-function: ease;
         cursor:pointer;
     }
 .header-main-menu-right{
@@ -86,14 +87,17 @@ ul li:hover{
         top:0;
         max-height:50px;
         transition: all 1s;
+        transition-timing-function: ease;
         z-index:100;
     }
     .header-main-move{
         height:51px;
         transition: all 1s;
+        transition-timing-function: ease;
     }
     .logomove{
         transition: all 1s;
+        transition-timing-function: ease;
         transform: translate(-140px,-25px) scale(0.5,0.5);
     }
     .menuleftmove{
@@ -102,6 +106,7 @@ ul li:hover{
         padding-right:0px;
         padding-left:30px;
         transition: all 1s;
+        transition-timing-function: ease;
         transform: translate(235px,0px);
     }
     .menurightmove{
@@ -109,15 +114,18 @@ ul li:hover{
         padding-left:0px;
         padding-top:10px;
         transition: all 1s;
+        transition-timing-function: ease;
         transform: translate(0px,0px);
     }
     .header-main-back{
         height:auto;
+        transition-timing-function: ease;
         transition: all 1s;
     }
     .logoback{
         transition: all 1s;
         height:100%;
+        transition-timing-function: ease;
         transform: translate(0px,0px);
     }
     .menuleftback{
@@ -125,6 +133,7 @@ ul li:hover{
         padding-top:35px;
         padding-left:90px;
         transition: all 1s;
+        transition-timing-function: ease;
         transform: translate(0px,0px);
     }
     .menurightback{
@@ -132,10 +141,12 @@ ul li:hover{
         padding-top:35px;
         padding-left:55px;
         transition: all 1s;
+        transition-timing-function: ease;
     }
     .stickyback{
         max-height:100px;
         transition: all 1s;
+        transition-timing-function: ease;
     }
 /* /////////////////////////////////////// */
 
@@ -247,42 +258,6 @@ ul li:hover{
 .textActive{
   display:block;
   position:relative;
-}
-.showtext1move{
-    font-size:22px;
-    transition: all 1s;
-}
-.showtext1back{
-    font-size:0px;
-    transition: all 1s;
-}
-.showtext1back h1{
-    margin:0;
-    transition: all 1s;
-}
-.showtext2move{
-    font-size:22px;
-    transition: all 1s;
-}
-.showtext2back{
-    font-size:0px;
-    transition: all 1s;
-}
-.showtext2back h1{
-    margin:0;
-    transition: all 1s;
-}
-.showtext3move{
-    font-size:22px;
-    transition: all 1s;
-}
-.showtext3back{
-    font-size:0px;
-    transition: all 1s;
-}
-.showtext3back h1{
-    margin:0;
-    transition: all 1s;
 }
 /* /////////////////////////////////////// */
 /* Blog */
